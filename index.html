@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>To-do List</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<h1 class="work">WORK TO-DOs</h1>
+				<p class="enter-text">
+					Enter text into the input field to add task to your list (max. 28
+					characters).
+				</p>
+				<p class="click-item">Click the item to mark it as complete.</p>
+				<p class="click-text">
+					Click the 'X' to remove the item from your list
+				</p>
+
+				<input
+					class="input"
+					type="text"
+					placeholder="New item....."
+					maxlength="28"
+				/>
+				<i class="fas fa-pen pen" onclick="submit()"></i>
+
+				<ul class="arrange" id="items">
+                   
+                </ul>
+			</div>
+		</div>
+		<div></i></div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
